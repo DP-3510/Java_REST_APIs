@@ -1,0 +1,56 @@
+Here’s a concise list of the most important Git commands you’ll use in the console:
+
+---
+
+### **Setup / Info**
+
+* `git config --global user.name "Your Name"` – set your Git username
+* `git config --global user.email "you@example.com"` – set your email
+* `git status` – see current changes and branch
+* `git log` – view commit history
+* `git remote -v` – see remote repositories
+
+---
+
+### **Working with Repositories**
+
+* `git clone <url>` – copy a repository from GitHub
+* `git init` – initialize a new local repository
+
+---
+
+### **Tracking Changes**
+
+* `git add <file>` – stage a file for commit
+* `git add .` – stage all changes
+* `git commit -m "message"` – commit staged changes with a message
+* `git commit -am "message"` – stage **and** commit tracked files
+
+---
+
+### **Updating / Syncing**
+
+* `git pull` – get latest changes from remote
+* `git push` – send your commits to remote
+
+---
+
+### **Branching**
+
+* `git branch` – list branches
+* `git branch <name>` – create a new branch
+* `git checkout <branch>` – switch to a branch
+* `git checkout -b <branch>` – create and switch in one command
+
+---
+
+### **Undo / Reset**
+
+* `git reset --hard` – discard all local changes
+* `git checkout -- <file>` – discard changes to a specific file
+
+---
+
+This covers **most daily Git work**.
+
+If you want, I can make an **even shorter “Git cheat sheet” of 10 commands you’ll use 90% of the time**, ready to copy into your notes. Do you want me to do that?
