@@ -1,0 +1,23 @@
+secure-user-API/
+│
+├── pom.xml                     # Maven, SQL dependencies
+├── README.txt                  # Project description
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/example/
+│       │       ├── Main.java
+│       │       ├── controller/
+│       │       │   └── UserController.java
+│       │       ├── model/
+│       │       │   └── User.java
+│       │       ├── service/
+│       │       │   └── UserService.java
+│       │       ├── repository/
+│       │       │   └── UserRepository.java
+│       │       └── security/
+│       │           └── HttpsClient.java
+│       └── resources/
+│           ├── application.properties   # SQL-DB config + other settings
+│           └── schema.sql                # Optional: initial SQL-DB setup
+└── .gitignore
